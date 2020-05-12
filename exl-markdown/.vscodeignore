@@ -1,0 +1,11 @@
+.vscode
+node_modules
+out/
+src/
+tsconfig.json
+webpack.config.js
+.gitignore
+.vscode-test/
+images/extension-demo.gif
+images/install.gif
+images/preview.gif
