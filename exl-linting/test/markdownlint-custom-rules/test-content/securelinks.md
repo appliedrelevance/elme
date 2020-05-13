@@ -6,7 +6,7 @@
 
 ## Link with https (shouldn't be found)
 
-[Docs](https://docs.microsoft.com)
+[Docs](https://docs.adobe.com)
 
 ## Link with Mailto (shouldn't be found)
 

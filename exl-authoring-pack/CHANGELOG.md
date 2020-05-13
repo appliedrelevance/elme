@@ -6,11 +6,11 @@
 
 ## 0.1.7 (March 4th, 2020)
 
-- [docs-linting](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-linting)
+- [docs-linting](https://marketplace.visualstudio.com/items?itemName=docsadobe.docs-linting)
 
 ## 0.1.5 (December 30th, 2019)
 
-- [docs-images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images)
+- [docs-images](https://marketplace.visualstudio.com/items?itemName=docsadobe.docs-images)
 
 ## 0.1.3 (November 8th, 2019)
 
@@ -18,7 +18,7 @@
 
 ## 0.1.2 (March 27th, 2019)
 
-- [docs-yaml](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml) is now part of Docs Authoring Pack.
+- [docs-yaml](https://marketplace.visualstudio.com/items?itemName=docsadobe.docs-yaml) is now part of Docs Authoring Pack.
 
 ## 0.1.1 (June 20th, 2018)
 
@@ -28,10 +28,10 @@
 
 Added the following extensions to authoring pack:
 
-- docsmsft.docs-article-templates
+- docsadobe.docs-article-templates
 - streetsidesoftware.code-spell-checker
 
-Replaced ms-docfx.DocFX extension with docsmsft.docs-preview.
+Replaced ms-docfx.DocFX extension with docsadobe.docs-preview.
 
 ## 0.0.3 (May 10th, 2018)
 
@@ -47,4 +47,4 @@ First release that includes the following extensions:
 
 - DavidAnson.vscode-markdownlint
 - ms-docfx.DocFX
-- docsmsft.docs-markdown
+- docsadobe.docs-markdown

@@ -29,9 +29,9 @@ export function previewTopic() {
         }
 
         const osPlatform = getOSPlatform();
-        const extensionName = "docsmsft.docs-preview";
+        const extensionName = "docsadobe.docs-preview";
         const { msTimeValue } = generateTimestamp();
-        const friendlyName = "docsmsft.docs-preview".split(".").reverse()[0];
+        const friendlyName = "docsadobe.docs-preview".split(".").reverse()[0];
         const inactiveMessage = `[${msTimeValue}] - The ${friendlyName} extension is not installed.`;
         if (checkExtension(extensionName, inactiveMessage)) {
             if (osPlatform === "linux") {
@@ -59,9 +59,9 @@ export function seoPreview() {
         }
 
         const osPlatform = getOSPlatform();
-        const extensionName = "docsmsft.docs-preview";
+        const extensionName = "docsadobe.docs-preview";
         const { msTimeValue } = generateTimestamp();
-        const friendlyName = "docsmsft.docs-preview".split(".").reverse()[0];
+        const friendlyName = "docsadobe.docs-preview".split(".").reverse()[0];
         const inactiveMessage = `[${msTimeValue}] - The ${friendlyName} extension is not installed.`;
         if (checkExtension(extensionName, inactiveMessage)) {
             if (osPlatform === "linux") {

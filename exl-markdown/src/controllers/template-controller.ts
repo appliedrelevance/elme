@@ -15,9 +15,9 @@ export function applyTemplateCommand() {
 
 export function applyTemplate() {
     sendTelemetryData(telemetryCommand, "");
-    const extensionName = "docsmsft.docs-article-templates";
+    const extensionName = "docsadobe.docs-article-templates";
     const { msTimeValue } = generateTimestamp();
-    const friendlyName = "docsmsft.docs-article-templates".split(".").reverse()[0];
+    const friendlyName = "docsadobe.docs-article-templates".split(".").reverse()[0];
     const inactiveMessage = `[${msTimeValue}] - The ${friendlyName} extension is not installed.`;
     if (checkExtension(extensionName, inactiveMessage)) {
         vscode.commands.executeCommand("applyTemplate");

@@ -4,7 +4,7 @@ import { output } from "../extension";
 
 /* tslint:disable: no-conditional-assignment */
 
-const apiUrl = "https://xref.docs.microsoft.com/query?uid=";
+const apiUrl = "https://xref.docs.adobe.com/query?uid=";
 // Sadly because of the bug with global regexes, I need two versions. One with global, one without. - Adam
 const XREF_RE_WITH_GLOBAL = /<xref:(.*?)(\?(displayProperty=(fullName|nameWithType)|view=(.*?))(&)?(displayProperty=(fullName|nameWithType)|view=(.*?)))?>/gmi;
 const XREF_RE = /<xref:(.*?)(\?(displayProperty=(fullName|nameWithType)|view=(.*?))(&)?(displayProperty=(fullName|nameWithType)|view=(.*?)))?>/mi;

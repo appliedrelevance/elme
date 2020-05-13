@@ -12,4 +12,4 @@ ms.custom: internal-contributor-guide
 
 # This is a include page
 
-Markdown is a lightweight markup language with plain text formatting syntax. Docs supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. Docs supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.adobe.com. This article provides an alphabetical reference for using Markdown for docs.adobe.com.

@@ -13,7 +13,7 @@ export class UiHelper {
 
             try {
                 this.uiMessage();
-                if (checkExtension("docsmsft.docs-article-templates")) {
+                if (checkExtension("docsadobe.docs-article-templates")) {
                     this.uiTemplate();
                     this.uiCleanup();
                 }
@@ -29,7 +29,7 @@ export class UiHelper {
                 this.uiInclude();
                 this.uiSnippet();
                 // this returns false until an activation event is initiated.
-                if (!checkExtension("docsmsft.docs-preview")) {
+                if (!checkExtension("docsadobe.docs-preview")) {
                     this.uiPreview();
                 }
             } catch (error) {

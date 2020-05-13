@@ -4,7 +4,7 @@
   "description": "exl Linting Extension",
   "icon": "images/docs-logo-ms.png",
   "version": "0.0.3",
-  "publisher": "docsmsft",
+  "publisher": "docsadobe",
   "homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/master/docs-linting",
   "bugs": {
     "url": "https://github.com/Microsoft/vscode-docs-authoring/issues"

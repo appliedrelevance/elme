@@ -1,7 +1,7 @@
 [![Build status](https://ceapex.visualstudio.com/Engineering/_apis/build/status/Authoring/docs-preview%20CI)](https://ceapex.visualstudio.com/Engineering/_build/latest?definitionId=1350&branchName=develop)
 # Docs Preview Extension
 
-This extension uses the docs.microsoft.com CSS to provide more accurate preview for Markdown published to Docs via the Open Publishing System (OPS). This includes all Markdown as supported by the CommonMark specification, as well as custom Markdown syntax for Docs, such as:
+This extension uses the docs.adobe.com CSS to provide more accurate preview for Markdown published to Docs via the Open Publishing System (OPS). This includes all Markdown as supported by the CommonMark specification, as well as custom Markdown syntax for Docs, such as:
 
 - Alerts (note, tip, important, caution, and warning).
 - Embedded code snippets.
@@ -21,9 +21,9 @@ The docs-preview extension supports light, dark and high contrast themes.  You c
 
 ![Preview setting](https://raw.githubusercontent.com/microsoft/vscode-docs-authoring/master/docs-preview/images/preview-setting.gif)
 
-If you also have the [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) extension installed, you can access preview from the Docs Markdown menu:
+If you also have the [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsadobe.docs-markdown) extension installed, you can access preview from the Docs Markdown menu:
 
 1. Type `Alt+M` to open the menu.
 1. Select `Preview`.
 
-To install both Docs Preview and Docs Markdown, along with other useful extensions for authoring Markdown for docs.microsoft.com, install the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+To install both Docs Preview and Docs Markdown, along with other useful extensions for authoring Markdown for docs.adobe.com, install the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsadobe.docs-authoring-pack).

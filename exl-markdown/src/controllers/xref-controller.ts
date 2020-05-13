@@ -6,7 +6,7 @@ import { getAsync } from "../helper/http-helper";
 import { reporter, sendTelemetryData } from "../helper/telemetry";
 
 const telemetryCommand: string = "applyXref";
-const rootUrl: string = "https://xref.docs.microsoft.com";
+const rootUrl: string = "https://xref.docs.adobe.com";
 const RE_XREF = /<xref:([A-Za-z_.\-\*\(\)\,\%0-9\`}{\[\]]+)?(\?)?(d)?(isplayProperty)?(=)?(fullName|nameWithType)?(>)?/g;
 
 export function xrefCompletionItemsMarkdown() {

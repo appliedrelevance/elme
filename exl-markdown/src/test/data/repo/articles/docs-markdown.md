@@ -12,7 +12,7 @@ ms.custom: internal-contributor-guide
 
 # Docs Markdown Reference
 
-Markdown is a lightweight markup language with plain text formatting syntax. Docs supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. Docs supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.adobe.com. This article provides an alphabetical reference for using Markdown for docs.adobe.com.
 
 You can use any text editor to author Markdown. For an editor that makes it easier to insert both standard Markdown and custom Docs Markdown extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
@@ -20,13 +20,13 @@ Docs has standardized on Markdig for all new repos, and older repos are migratin
 
 > [!IMPORTANT]
 > Engineering has some documentation on how DFM and Markdig engines differ, review the following documents if you are working on a Markdig Migration:
-> * [Markdig Migration Information](https://review.docs.microsoft.com/en-us/new-hope/engineering/tools/markdig/markdig-migration-information?branch=master&tabs=dfm)
-> * [Markdig Migration FAQ](https://review.docs.microsoft.com/en-us/new-hope/engineering/tools/markdig/markdig-migration-faq?branch=master&tabs=dfm)
+> * [Markdig Migration Information](https://review.docs.adobe.com/en-us/new-hope/engineering/tools/markdig/markdig-migration-information?branch=master&tabs=dfm)
+> * [Markdig Migration FAQ](https://review.docs.adobe.com/en-us/new-hope/engineering/tools/markdig/markdig-migration-faq?branch=master&tabs=dfm)
 >
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts an OPS-specific Markdown extension to create block quotes that render on docs.adobe.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
@@ -45,7 +45,7 @@ Alerts an OPS-specific Markdown extension to create block quotes that render on 
 > Dangerous certain consequences of an action.
 ```
 
-These alerts look like this on docs.microsoft.com:
+These alerts look like this on docs.adobe.com:
 
 > [!NOTE]
 > Information the user should notice even if skimming.
@@ -172,7 +172,7 @@ Body
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML isn't recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. For more information, see [HTML Whitelist](https://review.docs.microsoft.com/en-us/help/onboard/admin/html-whitelist?branch=master) in the Docs Admin Guide.
+Although Markdown supports inline HTML, HTML isn't recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. For more information, see [HTML Whitelist](https://review.docs.adobe.com/en-us/help/onboard/admin/html-whitelist?branch=master) in the Docs Admin Guide.
 
 ## Images
 
@@ -252,7 +252,7 @@ This renders as follows:
 
 ### Checklist
 
-Checklists are available for use on docs.microsoft.com (only) via a custom Markdown extension:
+Checklists are available for use on docs.adobe.com (only) via a custom Markdown extension:
 
 ```markdown
 > [!div class="checklist"]
@@ -261,7 +261,7 @@ Checklists are available for use on docs.microsoft.com (only) via a custom Markd
 > * List item 3
 ```
 
-This example renders on docs.microsoft.com like this:
+This example renders on docs.adobe.com like this:
 
 > [!div class="checklist"]
 > * List item 1
@@ -273,7 +273,7 @@ Use checklists at the beginning or end of an article to summarize "What will you
 
 ## Next step action
 
-You can use a custom extension to add a next step action button to pages on docs.microsoft.com (only).
+You can use a custom extension to add a next step action button to pages on docs.adobe.com (only).
 
 The syntax is as follows:
 
@@ -377,7 +377,7 @@ The preceding blockquote Markdown text will be rendered as:
 You can use a selector when you want to connect different pages for the same article. Readers can then switch between those pages.
 
 > [!NOTE]
-> This extension works differently between docs.microsoft.com and MSDN. <!-- should we keep info about MSDN? If so say how they differ?-->
+> This extension works differently between docs.adobe.com and MSDN. <!-- should we keep info about MSDN? If so say how they differ?-->
 
 ### Single selector
 
@@ -459,9 +459,9 @@ Goodbye <sup>This is superscript!</sup>
 
 ## Tabbed conceptual
 
-Tabbed conceptual is a **deprecated** Markdown extension for docs.microsoft.com that allows us to present different versions of content, such as procedural steps to accomplish the same task on different platforms, in a tabbed format. User interviews demonstrated that the way tabs were displayed on the site was not intuitive: most users didn't notice them. Therefore, they are not approved for general use and are being replaced by a new syntax, zone pivots, currently in pilot phase.
+Tabbed conceptual is a **deprecated** Markdown extension for docs.adobe.com that allows us to present different versions of content, such as procedural steps to accomplish the same task on different platforms, in a tabbed format. User interviews demonstrated that the way tabs were displayed on the site was not intuitive: most users didn't notice them. Therefore, they are not approved for general use and are being replaced by a new syntax, zone pivots, currently in pilot phase.
 
-Some content sets are already using tabbed conceptual and have been granted an exception to continue to do so until a replacement is available, but tabs shouldn't be added to content that doesn't already have them. See [Tabbed Conceptual](https://review.docs.microsoft.com/en-us/help/onboard/admin/tabbed-conceptual?branch=master) in the Docs Admin Guide for more information.
+Some content sets are already using tabbed conceptual and have been granted an exception to continue to do so until a replacement is available, but tabs shouldn't be added to content that doesn't already have them. See [Tabbed Conceptual](https://review.docs.adobe.com/en-us/help/onboard/admin/tabbed-conceptual?branch=master) in the Docs Admin Guide for more information.
 
 ## Tables
 
@@ -525,7 +525,7 @@ Renders as follows:
 ### mx-tdBreakAll
 
 > [!IMPORTANT]
-> This only works on the docs.microsoft.com site.
+> This only works on the docs.adobe.com site.
 
 If you create a table in Markdown, the table might expand to the right navigation and become unreadable. You can solve that by allowing Docs rendering to break the table when needed. Just wrap up the table with the custom class `[!div class="mx-tdBreakAll"]`.
 
@@ -552,13 +552,13 @@ It will be rendered like this:
 ### mx-tdCol2BreakAll
 
 > [!IMPORTANT]
-> This only works on the docs.microsoft.com site.
+> This only works on the docs.adobe.com site.
 
 From time to time, you might have long words in the second column of a table. To ensure they are broken apart nicely, you can apply the class `mx-tdCol2BreakAll` by using the `div` wrapper syntax as shown earlier.
 
 ### HTML Tables
 
-HTML tables aren't recommended for docs.microsoft.com. They aren't human readable in the source - which is a key principle of Markdown.
+HTML tables aren't recommended for docs.adobe.com. They aren't human readable in the source - which is a key principle of Markdown.
 
 <!--If you use HTML tables and your Markdown is not being rendered between the two tables, you need to add a closing `br` tag after the closing `table` tag.
 

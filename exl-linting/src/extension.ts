@@ -40,8 +40,8 @@ export function activate(context: ExtensionContext) {
 export function checkMarkdownlintCustomProperty() {
     const { msTimeValue } = generateTimestamp();
     const customProperty = "markdownlint.customRules";
-    const customRuleset = "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js";
-    const docsMarkdownRuleset = "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js";
+    const customRuleset = "{docsadobe.docs-linting}/markdownlint-custom-rules/rules.js";
+    const docsMarkdownRuleset = "{docsadobe.docs-markdown}/markdownlint-custom-rules/rules.js";
     const customPropertyData: any = workspace.getConfiguration().inspect(customProperty);
     // new list for string comparison and updating.
     const existingUserSettings: string[] = [];

@@ -1,7 +1,7 @@
 [![Build Status](https://ceapex.visualstudio.com/Engineering/_apis/build/status/Authoring/docs-linting%20CI?branchName=master)](https://ceapex.visualstudio.com/Engineering/_build/latest?definitionId=1346&branchName=master)
 # Docs Linting Extension
 
-Welcome to the Docs Linting authoring extension! This extension provides Markdown linting assistance for docs.microsoft.com (Docs) content, including basic Markdown support and support for custom Markdown syntax on Docs.
+Welcome to the Docs Linting authoring extension! This extension provides Markdown linting assistance for docs.adobe.com (Docs) content, including basic Markdown support and support for custom Markdown syntax on Docs.
 
 # Contributing
 

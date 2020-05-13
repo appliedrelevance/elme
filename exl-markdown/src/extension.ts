@@ -144,8 +144,8 @@ export function installedExtensionsCheck() {
     const { msTimeValue } = generateTimestamp();
     // create a list to house docs extension names, loop through
     const docsExtensions = [
-        "docsmsft.docs-article-templates",
-        "docsmsft.docs-preview",
+        "docsadobe.docs-article-templates",
+        "docsadobe.docs-preview",
     ];
     docsExtensions.forEach((extensionName) => {
         const friendlyName = extensionName.split(".").reverse()[0];

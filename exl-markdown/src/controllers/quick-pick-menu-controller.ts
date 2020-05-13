@@ -36,7 +36,7 @@ export function markdownQuickPick() {
     let items: vscode.QuickPickItem[] = [];
     const activeTextDocument = vscode.window.activeTextEditor;
 
-    if (checkExtension("docsmsft.docs-preview")) {
+    if (checkExtension("docsadobe.docs-preview")) {
         markdownItems.push({
             description: "",
             label: "$(browser) Preview",
@@ -121,7 +121,7 @@ export function markdownQuickPick() {
         output.appendLine("Preview features will be enabled.");
     }
 
-    if (checkExtension("docsmsft.docs-article-templates")) {
+    if (checkExtension("docsadobe.docs-article-templates")) {
         markdownItems.push({
             description: "",
             label: "$(diff) Template",

@@ -7076,7 +7076,7 @@ html.ap-layout-finished .action-bar {
 }
 
 .task-completed-modal .task-modal-background-correct {
-  background-image: url("https://docs.microsoft.com/en-us/media/learn/modal-complete-plain.svg");
+  background-image: url("https://docs.adobe.com/en-us/media/learn/modal-complete-plain.svg");
   background-size: contain;
   min-height: 118px;
 }
@@ -19095,7 +19095,7 @@ input:checked + .quiz-choice .custom-radio:before {
 }
 
 .quiz-modal-image {
-  background-image: url(https://docs.microsoft.com/en-us/media/learn/quiz-complete.svg);
+  background-image: url(https://docs.adobe.com/en-us/media/learn/quiz-complete.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -5,7 +5,7 @@
   "icon": "images/docs-logo-ms.png",
   "aiKey": "0a0e5961-85c2-451a-bce8-6a54e37c93be",
   "version": "0.2.66",
-  "publisher": "docsmsft",
+  "publisher": "docsadobe",
   "homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/master/docs-markdown",
   "bugs": {
     "url": "https://github.com/Microsoft/vscode-docs-authoring/issues"
@@ -434,12 +434,12 @@
         {
           "command": "previewTopic",
           "group": "Docs",
-          "when": "resourceLangId == markdown && vscode.extensions.getExtension('docsmsft.docs-preview').active"
+          "when": "resourceLangId == markdown && vscode.extensions.getExtension('docsadobe.docs-preview').active"
         },
         {
           "command": "applyTemplate",
           "group": "Docs",
-          "when": "vscode.extensions.getExtension('docsmsft.docs-article-templates').active"
+          "when": "vscode.extensions.getExtension('docsadobe.docs-article-templates').active"
         },
         {
           "command": "applyCleanup",
@@ -493,7 +493,7 @@
         "markdown.docsetName": {
           "type": "string",
           "default": "",
-          "markdownDescription": "The name of the docset, most often the route segment immediately following the locale in the URL, (i.e.; https://docs.microsoft.com/en-us/azure/ would be 'azure'). Sometimes this value is specified in the `docfx.json` file under the `build/dest` node.",
+          "markdownDescription": "The name of the docset, most often the route segment immediately following the locale in the URL, (i.e.; https://docs.adobe.com/en-us/azure/ would be 'azure'). Sometimes this value is specified in the `docfx.json` file under the `build/dest` node.",
           "scope": "window"
         },
         "markdown.docsetRootFolderName": {
