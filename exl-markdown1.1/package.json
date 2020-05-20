@@ -5,7 +5,7 @@
 	"icon": "images/docs-logo-ms.png",
 	"aiKey": "0a0e5961-85c2-451a-bce8-6a54e37c93be",
 	"version": "0.2.59",
-	"publisher": "Appliedrelevance",
+	"publisher": "Adobe",
 	"bugs": {
 		"url": "https://github.com/Microsoft/vscode-docs-authoring/issues"
 	},
