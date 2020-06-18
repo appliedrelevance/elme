@@ -1,23 +1,23 @@
 var blockquoteTags = document.getElementsByTagName("blockquote");
 var alerts = [
   {
-    "name": "Note",
+    "name": "NOTE",
     "icon": "docon-status-error-outline"
   },
   {
-    "name": "Tip",
+    "name": "TIP",
     "icon": "docon-lightbulb"
   },
   {
-    "name": "Important",
+    "name": "IMPORTANT",
     "icon": "docon-status-info-outline"
   },
   {
-    "name": "Caution",
+    "name": "CAUTION",
     "icon": "docon-status-failure-outline"
   },
   {
-    "name": "Warning",
+    "name": "WARNING",
     "icon": "docon-status-warning-outline"
   }];
 

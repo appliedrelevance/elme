@@ -42,6 +42,12 @@ See the [Adobe Internal Authority Guide](https://docs.adobe.com/content/help/en/
 >
 > This is a standard important block.
 
+#### !CAUTION tag
+
+> [!CAUTION]
+>
+> Negative potential consequences of an action
+
 #### !MORELIKETHIS tag
 
 > [!MORELIKETHIS]
