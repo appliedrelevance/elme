@@ -84,7 +84,7 @@ body.vscode-high-contrast blockquote.NOTE {
   border: solid  #959595;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -96,7 +96,7 @@ body.vscode-dark blockquote.NOTE {
   border: solid  #959595;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -118,7 +118,7 @@ body.vscode-high-contrast blockquote.TIP {
   border: solid  #094409;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -130,7 +130,7 @@ body.vscode-dark blockquote.TIP {
   border-color: #094409;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -153,7 +153,7 @@ body.vscode-high-contrast blockquote.IMPORTANT {
   border: solid  #EFD500;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -165,7 +165,7 @@ body.vscode-dark blockquote.IMPORTANT {
   border: solid  #EFD500;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -188,7 +188,7 @@ body.vscode-high-contrast blockquote.WARNING {
   border: solid  #FA0F00;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -200,7 +200,7 @@ body.vscode-dark blockquote.WARNING {
   border: solid  #FA0F00;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -222,7 +222,7 @@ body.vscode-high-contrast blockquote.CAUTION {
   border: solid  #b49a00;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
@@ -234,7 +234,7 @@ body.vscode-dark blockquote.CAUTION {
   border: solid  #b49a00;
   border-width: 2px;
   background: white;
-  color: white!important;
+  color: #000000!important;
   border-left-width: 3rem;
 }
 
