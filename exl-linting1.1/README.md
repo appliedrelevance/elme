@@ -18,3 +18,9 @@ contact [opencode@microsoft.com](https://github.com/Microsoft/vscode-docs-author
 ## License
 
 [MIT](https://github.com/Microsoft/vscode-docs-authoring/blob/master/LICENSE)
+
+> [!NOTE]
+> Information the user should notice even if skimming
+>
+>
+>
