@@ -1,0 +1,5 @@
+
+*.vsix
+docs-metadata/install.Lock
+
+.vscode/*
