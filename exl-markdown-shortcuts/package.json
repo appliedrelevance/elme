@@ -241,6 +241,11 @@
                 "command": "md-shortcut.toggleTitleH6",
                 "title": "Toggle Header Level 6",
                 "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleNote",
+                "title": "Toggle Standard Note",
+                "category": "Markdown Shortcuts"
             }
         ],
         "keybindings": [
@@ -366,6 +371,11 @@
                     "command": "md-shortcut.addTableWithHeader",
                     "when": "markdownShortcuts:enabled",
                     "group": "2_markdown_3@2"
+                },
+                {
+                    "command": "md-shortcut.toggleNote",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@1"
                 }
             ],
             "editor/title": [
