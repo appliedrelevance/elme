@@ -1,0 +1,8 @@
+.vscode/**
+typings/**
+test/**
+gifs/**
+resources/**
+.gitignore
+jsconfig.json
+vsc-extension-quickstart.md
