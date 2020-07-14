@@ -246,6 +246,31 @@
                 "command": "md-shortcut.toggleNote",
                 "title": "Toggle Standard Note",
                 "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleTip",
+                "title": "Toggle Standard Tip",
+                "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleWarning",
+                "title": "Toggle Standard Warning",
+                "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleImportant",
+                "title": "Toggle Standard Important",
+                "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleMoreLikeThis",
+                "title": "Toggle Standard More Like This",
+                "category": "Markdown Shortcuts"
+            },
+            {
+                "command": "md-shortcut.toggleVideo",
+                "title": "Toggle Standard Video",
+                "category": "Markdown Shortcuts"
             }
         ],
         "keybindings": [
@@ -376,6 +401,31 @@
                     "command": "md-shortcut.toggleNote",
                     "when": "markdownShortcuts:enabled",
                     "group": "2_markdown_4@1"
+                },
+                {
+                    "command": "md-shortcut.toggleTip",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@2"
+                },
+                {
+                    "command": "md-shortcut.toggleWarning",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@3"
+                },
+                {
+                    "command": "md-shortcut.toggleImportant",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@4"
+                },
+                {
+                    "command": "md-shortcut.toggleMoreLikeThis",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@5"
+                },
+                {
+                    "command": "md-shortcut.toggleVideo",
+                    "when": "markdownShortcuts:enabled",
+                    "group": "2_markdown_4@6"
                 }
             ],
             "editor/title": [

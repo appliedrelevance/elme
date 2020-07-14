@@ -144,6 +144,41 @@ var _commands = [
         '>[!NOTE]\r\n>This is a standard NOTE block.',
         true
     ),
+    new Command(
+        'toggleTip',
+        toggleTip,
+        'Toggle standard tip',
+        '>[!TIP]\r\n>This is a standard TIP.',
+        true
+    ),
+    new Command(
+        'toggleWarning',
+        toggleWarning,
+        'Toggle standard warning',
+        '>[!Warning]\r\n>This is a standard Warning block.',
+        true
+    ),
+    new Command(
+        'toggleImportant',
+        toggleImportant,
+        'Toggle standard Important',
+        '>[!IMPORTANT]\r\n>This is a standard IMPORTANT block.',
+        true
+    ),
+    new Command(
+        'toggleMoreLikeThis',
+        toggleMoreLikeThis,
+        'Toggle standard',
+        '>[!MORELIKETHIS]\r\n>This is a standard MORE LIKE THIS block.',
+        true
+    ),
+    new Command(
+        'toggleVideo',
+        toggleVideo,
+        'Toggle standard video',
+        '>[!VIDEO]\r\n>())',
+        true
+    ),
 ];
 
 let newLine = env.getEol();
@@ -497,6 +532,75 @@ function toggleNote() {
     );
 }
 
+var startingTip = '>[!Tip]' + newLine + '>' + newLine + '>';
+var endingTip = newLine;
+var tipBlockWordPattern = new RegExp(
+    startingTip + '.+' + endingTip + '|.+',
+    'gm'
+);
+function toggleTip() {
+    return editorHelpers.surroundBlockSelection(
+        startingTip,
+        endingTip,
+        tipBlockWordPattern
+    );
+}
+
+var startingWarning = '>[!WARNING]' + newLine + '>' + newLine + '>';
+var endingWarning = newLine;
+var warningBlockWordPattern = new RegExp(
+    startingWarning + '.+' + endingWarning + '|.+',
+    'gm'
+);
+function toggleWarning() {
+    return editorHelpers.surroundBlockSelection(
+        startingWarning,
+        endingWarning,
+        warningBlockWordPattern
+    );
+}
+
+var startingImportant = '>[!IMPORTANT]' + newLine + '>' + newLine + '>';
+var endingImportant = newLine;
+var importantBlockWordPattern = new RegExp(
+    startingImportant + '.+' + endingImportant + '|.+',
+    'gm'
+);
+function toggleImportant() {
+    return editorHelpers.surroundBlockSelection(
+        startingImportant,
+        endingImportant,
+        importantBlockWordPattern
+    );
+}
+
+var startingMoreLikeThis = '>[!MORELIKETHIS]' + newLine + '>*' + newLine + '>*';
+var endingMoreLikeThis = newLine;
+var moreLikeThisBlockWordPattern = new RegExp(
+    startingMoreLikeThis + '.+' + endingMoreLikeThis + '|.+',
+    'gm'
+);
+function toggleMoreLikeThis() {
+    return editorHelpers.surroundBlockSelection(
+        startingMoreLikeThis,
+        endingMoreLikeThis,
+        moreLikeThisBlockWordPattern
+    );
+}
+
+var startingVideo = '>[!VIDEO]' + '()';
+var endingVideo = newLine;
+var videoBlockWordPattern = new RegExp(
+    startingVideo + '.+' + endingVideo + '|.+',
+    'gm'
+);
+function toggleVideo() {
+    return editorHelpers.surroundBlockSelection(
+        startingVideo,
+        endingVideo,
+        videoBlockWordPattern
+    );
+}
 function Command(command, callback, label, description, showInCommandPalette) {
     this.command = command;
     this.callback = callback;
