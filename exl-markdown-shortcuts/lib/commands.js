@@ -140,42 +140,42 @@ var _commands = [
     new Command(
         'toggleNote',
         toggleNote,
-        'Toggle standard note',
-        '>[!NOTE]\r\n>This is a standard NOTE block.',
+        'Toggle note',
+        '>[!NOTE]\r\n>This is a NOTE block.',
         true
     ),
     new Command(
         'toggleTip',
         toggleTip,
-        'Toggle standard tip',
-        '>[!TIP]\r\n>This is a standard TIP.',
+        'Toggle tip',
+        '>[!TIP]\r\n>This is a TIP.',
         true
     ),
     new Command(
         'toggleWarning',
         toggleWarning,
-        'Toggle standard warning',
-        '>[!Warning]\r\n>This is a standard Warning block.',
+        'Toggle warning',
+        '>[!Warning]\r\n>This is a Warning block.',
         true
     ),
     new Command(
         'toggleImportant',
         toggleImportant,
-        'Toggle standard Important',
-        '>[!IMPORTANT]\r\n>This is a standard IMPORTANT block.',
+        'Toggle Important',
+        '>[!IMPORTANT]\r\n>This is a IMPORTANT block.',
         true
     ),
     new Command(
         'toggleMoreLikeThis',
         toggleMoreLikeThis,
-        'Toggle standard',
-        '>[!MORELIKETHIS]\r\n>This is a standard MORE LIKE THIS block.',
+        'Toggle More Like This',
+        '>[!MORELIKETHIS]\r\n>This is a MORE LIKE THIS block.',
         true
     ),
     new Command(
         'toggleVideo',
         toggleVideo,
-        'Toggle standard video',
+        'Toggle video',
         '>[!VIDEO]\r\n>())',
         true
     ),
