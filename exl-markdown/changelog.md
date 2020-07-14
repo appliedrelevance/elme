@@ -1,5 +1,79 @@
 # Change Log
 
+## 0.2.77 (July 13th, 2020)
+
+- TOC indentation bug fix
+- Added code block language standardization to cleanup functionality
+
+## 0.2.76 (July 7th, 2020)
+
+- Add list-controller tests
+- Added auto-complete for ms.prod, ms.service, ms.subservice, and ms.technology.
+
+## 0.2.75 (June 26th, 2020)
+
+- Support updating empty metadata
+- Authentication for allowlist on image extension
+
+## 0.2.74 (June 11th, 2020)
+
+- Collapse relative link improvements
+- Remote-WSL bug fix: [Issue 605](https://github.com/microsoft/vscode-docs-authoring/issues/605)
+- Added Unit Test Coverage: table-controller.ts
+- Single value cleanup bug fix: [Issue 252](https://github.com/microsoft/vscode-docs-authoring/issues/252)
+- Bug fix for cleanup metadata removing body text
+
+## 0.2.73 (June 8th, 2020)
+
+- List bug fix: [Issue 409](https://github.com/microsoft/vscode-docs-authoring/issues/409)
+
+## 0.2.72 (June 4th, 2020)
+
+- Added support for triple colon video extension insertion.
+- Bug fix for Link in repo.
+- Updated collapse relative link feature.
+- User snippet tab stop bug fix: [Issue 140](https://github.com/microsoft/vscode-docs-authoring/issues/140)
+
+## 0.2.71 (May 29th, 2020)
+
+- Improved support for collapse relative links in folder experience.
+
+## 0.2.70 (May 25th, 2020)
+
+- Added support for clickable images
+- Fixed master redirect command
+
+## 0.2.69 (May 20th, 2020)
+
+- Added collapseRelativeLinks to link-controller
+- Fixed broken include-controller tests when running on \*nix systems
+- Updated stub of "sendTelemetryEvent" in cleanup-controller which was throwing an error.
+
+## 0.2.68 (May 8th, 2020)
+
+- Added Completion Provider for Triple Colon Extensions
+
+## 0.2.67 (April 30th, 2020)
+
+- Added Unit Test Coverage: code-controller.ts
+- Added Moniker to quick-pick-menu-controller.ts
+- Added Unit Test Coverage: include-controller.ts
+- Added Unit Test Coverage: bold-controller.ts
+
+## 0.2.63 (April 2nd, 2020)
+
+- Bundling with webpack
+
+## 0.2.62 (April 1st, 2020)
+
+- Added moniker insertion feature for metadata and markdown
+- Added the ability to fix invalid redirect_document_id values
+
+## 0.2.60 (March 23rd, 2020)
+
+- Added feature for resolving daisy chained paths in openpublishing.redirection.json
+- Added mocha junit test coverage and nyc code coverage reports
+
 ## 0.2.59 (March 12th, 2020)
 
 - Expanded the usage of the update metadata values command to YAML
@@ -220,7 +294,7 @@
 ## 0.1.0 (June 18th, 2018)
 
 - Template extension integration
-- Fix paths related to exl-markdown folder rename
+- Fix paths related to docs-markdown folder rename
 - MacOS and Linux external bookmark logic updates
 - Snippet support for CommonMark markdown implementation
 - Updates to command palette and keybindings
