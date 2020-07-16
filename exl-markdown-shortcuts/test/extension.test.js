@@ -296,6 +296,14 @@ suite( "URLs", function() {
     // } );
 } );
 
+suite( "NOTES", function() {
+    test("Toggles with ranged selection", function () {
+        return TestCommand( 
+            'toggleNote', 
+            'A standard note.', 
+            '>[!NOTE]\r\n>A standard note.');
+    })
+})
 // A helper function that generates test case functions.
 // Both inputContent and expectedContent can include selection string representation.
 // Returns a promise resolving to Promise<TextEditor>.
